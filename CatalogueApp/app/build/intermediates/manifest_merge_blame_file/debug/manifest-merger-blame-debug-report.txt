@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.catalogueapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:7:5-24:19
+14        android:allowBackup="true"
+14-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:8:9-44
+24        <activity android:name="com.example.catalogueapp.WebCallActivity" />
+24-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:15:9-62
+24-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:15:19-50
+25        <activity android:name="com.example.catalogueapp.DetailActivity" />
+25-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:16:9-52
+25-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:16:19-49
+26        <activity android:name="com.example.catalogueapp.MainActivity" >
+26-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\Alberto Flores\Documents\AndroidStudioProjects\CatalogueApp\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->[androidx.room:room-runtime:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\3b878328b887e71e2102624e91f68331\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+35            android:name="androidx.room.MultiInstanceInvalidationService"
+35-->[androidx.room:room-runtime:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\3b878328b887e71e2102624e91f68331\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+36            android:exported="false" />
+36-->[androidx.room:room-runtime:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\3b878328b887e71e2102624e91f68331\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\c75b512c68f7bb7a7c5a931aae563be5\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\c75b512c68f7bb7a7c5a931aae563be5\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+40            android:authorities="com.example.catalogueapp.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\c75b512c68f7bb7a7c5a931aae563be5\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\c75b512c68f7bb7a7c5a931aae563be5\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alberto Flores\.gradle\caches\transforms-2\files-2.1\c75b512c68f7bb7a7c5a931aae563be5\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+43    </application>
+44
+45</manifest>
